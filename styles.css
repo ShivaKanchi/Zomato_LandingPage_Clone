@@ -1,11 +1,125 @@
 *{
   margin: 0;
   padding: 0;
-
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
 } 
-.hero__section{
+
+.hero__section {
   background: url(images/heroSectionBackground.png);
+  background-size:cover ;
+  background-position: center;
+  color: white;
+  min-height: 60vh;
 }
+
 .navbar{
   display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 60px;
+  padding: 16px 48px;
+}
+
+.navbar a{
+  text-decoration: none;
+  color: white;
+  pad 
+}
+
+.navbar__menu_container{
+  display: flex;
+  gap: 20px;
+}
+
+.navbar__menu_container .user__icon{
+  height: 30px;
+  width: 30px;
+  border: solid 1px white;
+  border-radius: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content:center;
+  display: none;
+}
+
+.hero__section_container{
+  display: flex;
+  flex-direction:column ;
+  align-items: center;
+  justify-content: center;
+  gap: 32px;
+  min-height: calc(60vh-60px);
+}
+
+.hero__section_logo{
+  width: 300px;
+  height: auto;
+}
+
+.hero__section_title{
+  text-align: center;
+  font-size: 3.6rem;
+  font-weight: 400;
+
+}
+
+.hero__section_container_input{
+  background: white;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  gap: 10px;
+  width: 50%;
+  border-radius: 10px;
+}
+
+.input_location , .input_search{
+  border: none;
+  padding: 5px;
+  outline: none;
+}
+.input_location{
+  width: 35%;
+  border-right:solid 2px #e0e0e0 ;
+}
+.input_search{
+  width: 65%;
+}
+
+@media only screen and (max-width: 600px){
+  .navbar__menu_container .user__icon{
+    display: flex;
+  }
+  .link{
+    display: none;
+  }
+  .navbar{
+    padding: 16px;
+  }
+  .hero__section{
+    min-height: 80vh;
+  }
+  .hero__section_container_input{
+    background: transparent;
+    flex-direction: column;
+    padding: 10px;
+    border-radius: 10px;
+    width: 100%;
+  }
+
+  .input_location ,
+  .input_search{
+    border-radius: 10px;
+    width: 95%;
+  }
+  .hero__section_container{
+    height: calc(80vh-60px);
+  }
+  .hero__section_title{
+    width: 80%;
+    font-size: 20px;
+  }
 }

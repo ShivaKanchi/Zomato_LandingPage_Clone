@@ -4,5 +4,8 @@
 
 } 
 .hero__section{
-  background: url(images/heroSectionBackground);
+  background: url(images/heroSectionBackground.png);
+}
+.navbar{
+  display: flex;
 }

@@ -10,7 +10,7 @@
   background-size:cover ;
   background-position: center;
   color: white;
-  min-height: 60vh;
+  height: 60vh;
 }
 
 .navbar{
@@ -18,18 +18,19 @@
   align-items: center;
   justify-content: space-between;
   height: 60px;
-  padding: 16px 48px;
+  padding: 16px 200px;
 }
 
 .navbar a{
   text-decoration: none;
   color: white;
-  pad 
+  font-weight: 300;
+  font-size: 18px;
 }
 
 .navbar__menu_container{
   display: flex;
-  gap: 20px;
+  gap: 30px;
 }
 
 .navbar__menu_container .user__icon{
@@ -50,7 +51,7 @@
   align-items: center;
   justify-content: center;
   gap: 32px;
-  min-height: calc(60vh-60px);
+  min-height: calc(60vh - 60px);
 }
 
 .hero__section_logo{
@@ -60,20 +61,21 @@
 
 .hero__section_title{
   text-align: center;
-  font-size: 3.6rem;
-  font-weight: 400;
-
+  font-size: 230%;
+  font-weight: 300;
+  padding-bottom: -10px;
 }
 
 .hero__section_container_input{
   background: white;
-  padding: 10px;
+  padding: 12px;
   display: flex;
   align-items: center;
   justify-items: center;
   gap: 10px;
-  width: 50%;
+  width: 51%;
   border-radius: 10px;
+  margin-bottom: 90px;
 }
 
 .input_location , .input_search{
@@ -116,7 +118,7 @@
     width: 95%;
   }
   .hero__section_container{
-    height: calc(80vh-60px);
+    height: calc(80vh - 60px);
   }
   .hero__section_title{
     width: 80%;

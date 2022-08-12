@@ -92,7 +92,7 @@
 }
 /*---------------------------------------------------------Card Container------------------------------------------------------------------------*/
 .container{
-  margin: 3rem auto;
+  margin: 2rem auto;
   width: 100%;
 }
 .container_we_offer{
@@ -109,19 +109,28 @@
   border:solid 1px #e0e0e0;
   transition: all 0.3s ease;
   width: 23%;
+  min-width: 200px;
+}
+.we_offer_card:hover{
+  transform: scale(1.05);
 }
 .we_offer_card img{
   width: 100%;
-  height: 130px;
+  height: 145px;
   object-fit: cover;
   object-position: center;
 }
 .we_offer_card h2{
-font-weight: 300;
+font-size: 20px;
+font-weight: 500;
 }
 .we_offer_card p{
+  font-size: 15px;
   font-weight:300;
-  }
+  color: #585e6a;
+}
+
+
 .we_offer_content{
   padding: 14px;
 }

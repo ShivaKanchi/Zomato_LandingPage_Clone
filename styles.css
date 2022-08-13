@@ -91,7 +91,7 @@
   width: 65%;
 }
 /*---------------------------------------------------------Card Container------------------------------------------------------------------------*/
-.container__section{
+.container__main{
   margin: 2rem auto;
   width: 100%;
 }
@@ -134,12 +134,24 @@ font-weight: 500;
 }
 /*---------------------------------------------------------Card Container------------------------------------------------------------------------*/
 .collection__section{
+  max-width: 72%;
   margin: 3rem auto;
 }
 .collection__span{
   display: flex;
   justify-content: space-between;
   gap:1rem;
+  font-size: 17px;
+  flex-wrap: wrap;
+  font-weight: 300;
+}
+.collection__section h1{
+  font-size: 40px;
+  font-weight: 500;
+}
+.collection__section span:nth-child(2){
+  color: #ff7e8b;
+  cursor: pointer;
 }
 .collection__card_container{
   display: flex;

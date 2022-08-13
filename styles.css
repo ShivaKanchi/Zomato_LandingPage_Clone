@@ -91,7 +91,7 @@
   width: 65%;
 }
 /*---------------------------------------------------------Card Container------------------------------------------------------------------------*/
-.container{
+.container__section{
   margin: 2rem auto;
   width: 100%;
 }
@@ -129,10 +129,32 @@ font-weight: 500;
   font-weight:300;
   color: #585e6a;
 }
-
-
 .we_offer_content{
   padding: 14px;
+}
+/*---------------------------------------------------------Card Container------------------------------------------------------------------------*/
+.collection__section{
+  margin: 3rem auto;
+}
+.collection__span{
+  display: flex;
+  justify-content: space-between;
+  gap:1rem;
+}
+.collection__card_container{
+  display: flex;
+}
+.collection__card1{
+  background-image: url(images/collection1.jpg);
+}
+.collection__card2{
+  background-image: url(images/collection2.jpg);
+}
+.collection__card3{
+  background-image: url(images/collection3.jpg);
+}
+.collection__card4{
+  background-image: url(images/collection4.jpg);
 }
 /*---------------------------------------------------------Below 600px width---------------------------------------------------------------------*/
 @media only screen and (max-width: 600px){

@@ -207,6 +207,27 @@ font-weight: 500;
   font-size: 14px;
   font-weight: 300;
 }
+/*---------------------------------------------------------App Container-------------------------------------------------------------------------*/
+.container__app{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background: rgb(255,251,247);
+  padding: 3rem 6rem;
+}
+.left{
+  flex:2
+}
+.left img{
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+.right{
+  flex: 3;
+}
+
 /*---------------------------------------------------------Below 600px width---------------------------------------------------------------------*/
 @media only screen and (max-width: 600px){
   .navbar__menu_container .user__icon{

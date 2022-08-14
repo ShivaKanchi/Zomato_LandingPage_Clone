@@ -142,7 +142,7 @@
     </section>
 
     <section class="container__app">
-      
+      <div class="container__app_contain">
       <div class="left">
         <img src="images/mobileBanner.png" alt="AppBanner" />
       </div>
@@ -152,8 +152,14 @@
         <p>We will send you a link, open it on your phone to download the app</p>
         
         <div class="radiobutton">
-          <input type="radio" name="option">Email</input>
-          <input type="radio" name="option">Phone</input>
+          <div>
+            <input type="radio" id="email" name="option" />
+            <label for="email" style="font-size: 17px;">Email</label>
+          </div>
+          <div>
+            <input type="radio" id="phone" name="option" />
+            <label for="phone" style="font-size: 17px;">Phone</label>
+          </div>
         </div>
         <div class="inputtext">
           <input type="text" placeholder="Email"></input>
@@ -161,10 +167,13 @@
         </div>
         <div class="downloadimg">
           <h5>Download from</h5>
-          <img src="images/playStore.png" alt="Playstore" />
-          <img src="images/appleStore.png" alt="IOS" />
+          <div>
+            <img src="images/playStore.png" alt="Playstore" />
+            <img src="images/appleStore.png" alt="IOS" />
+          </div>
         </div>
       
+      </div>
       </div>
     </section>
 

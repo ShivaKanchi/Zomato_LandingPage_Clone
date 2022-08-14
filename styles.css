@@ -216,6 +216,13 @@ font-weight: 500;
   background: rgb(255,251,247);
   padding: 3rem 6rem;
 }
+.container__app_contain{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
 .left{
   display: flex;
   justify-content: right;
@@ -229,28 +236,43 @@ font-weight: 500;
 
 }
 .right{
-  flex: 2;
+  flex: 3;
   display: flex;
   flex-direction: column;
-  gap:1rem;
-
+  gap:1.5rem;
+  align-items: center;
+  justify-content: left;
 }
 .right h1{ 
   width: 80%;
   font-size: 38px;
   font-weight: 500;
-  align-self: center;
+  align-self: left;
+  letter-spacing: 0.5px;
 }
 .right p{
   width: 80%;
+  font-size: 18px;
+  font-weight: 300;
 }
 .right>.radiobutton{
+  display: flex;
   width: 80%;
+  gap: 1rem;
+  align-items: center;
+}
+.right>.radiobutton div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
 }
 .right>.inputtext{
+  display: flex;
   width: 80%;
 }
 .right>.downloadimg{
+ 
   width: 80%;  
 }
 

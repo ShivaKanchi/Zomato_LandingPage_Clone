@@ -212,12 +212,11 @@ font-weight: 500;
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 90%;
   background: rgb(255,251,247);
   padding: 3rem 6rem;
 }
 .container__app_contain{
-  width: 100%;
+  width: 60%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -227,54 +226,101 @@ font-weight: 500;
   display: flex;
   justify-content: right;
   align-items: center;
-  flex:2
+  flex:2;
 }
 .left img{
-  width: 55%;
+  width: 100%;
   object-fit: cover;
   object-position: center;
 
 }
+
 .right{
   flex: 3;
   display: flex;
   flex-direction: column;
   gap:1.5rem;
+  height: 100%;
+  justify-content: center;
   align-items: center;
-  justify-content: left;
 }
 .right h1{ 
-  width: 80%;
-  font-size: 38px;
+  font-size: 39px;
   font-weight: 500;
   align-self: left;
-  letter-spacing: 0.5px;
+  letter-spacing: 0.9px;
+  width: 100%;
 }
 .right p{
-  width: 80%;
-  font-size: 18px;
+  font-size: 15px;
   font-weight: 300;
+  align-self: left;
+  width: 100%;
 }
 .right>.radiobutton{
   display: flex;
-  width: 80%;
-  gap: 1rem;
+  gap: 3rem;
   align-items: center;
+  width: 100%;
 }
-.right>.radiobutton div{
+.right>.radiobutton div {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 10px;
+  accent-color: rgb(239,79,95);
+}
+.right>.radiobutton input {
+  width: 20px;
+  height: 20px;
 }
 .right>.inputtext{
   display: flex;
-  width: 80%;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 0.5rem;
+  width: 100%;
+}
+.right>.inputtext input{
+  flex: 3;
+  border-radius: 5px;
+  border: 1px solid #bbb6b1;
+  outline: none;
+  padding: 10px 12px;
+}
+.right>.inputtext button{
+  flex: 2;
+  font-size: 17px;
+  color: white;
+  background-color: #ef4f5f;
+  border:none;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 10px 12px;
 }
 .right>.downloadimg{
- 
-  width: 80%;  
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap:1rem;
+  width: 100%;
 }
+
+.right>.downloadimg h5{
+  color: #9f9992;
+  font-weight: 400;
+  font-size: 16px;
+}
+.right>.downloadimg div{ 
+  display: flex;
+  gap: 1rem;
+}
+
+.right>.downloadimg > div > img{
+  max-width: 30%;
+}
+
+
 
 
 /*---------------------------------------------------------Below 600px width---------------------------------------------------------------------*/

@@ -220,6 +220,7 @@ font-weight: 500;
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-wrap: wrap;
 
 }
 .left{
@@ -229,7 +230,7 @@ font-weight: 500;
   flex:2;
 }
 .left img{
-  width: 100%;
+  max-width: 100%;
   object-fit: cover;
   object-position: center;
 
@@ -317,6 +318,7 @@ font-weight: 500;
 }
 
 .right>.downloadimg > div > img{
+  cursor: pointer;
   max-width: 30%;
 }
 
@@ -344,7 +346,6 @@ font-weight: 500;
     border-radius: 10px;
     width: 100%;
   }
-
   .input_location ,
   .input_search{
     border-radius: 10px;
@@ -358,3 +359,30 @@ font-weight: 500;
     font-size: 20px;
   }
 }
+
+/*---------------------------------------------------------Below 1300px width---------------------------------------------------------------------*/
+@media only screen and (max-width:1300px) {      
+  .container__app_contain> .left , .right{
+    flex: 1;
+  }
+  .container__app_contain>.right>.inputtext{
+    flex-direction: column;
+  }
+  .container__app_contain{
+    width: 80%;
+  }
+}
+
+/*---------------------------------------------------------Below 900px width---------------------------------------------------------------------*/
+@media only screen and (max-width:900px) {      
+  .container__app_contain> .left , .right{
+    padding: 2rem;
+  }
+  .container__app_contain>.right>.inputtext{
+    flex-direction: column;
+  }
+  .container__app_contain{
+    width: 90%;
+  }
+}
+

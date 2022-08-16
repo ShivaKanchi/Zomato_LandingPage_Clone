@@ -337,6 +337,7 @@ font-weight: 500;
   width: 80%;
   margin: auto;
   flex-wrap: wrap;
+  gap: 1rem;
 }
 .footer__section img{
   width: 120px;
@@ -451,6 +452,9 @@ font-weight: 500;
   .container__app_contain>.right h1{
     font-size: 2.2rem;
   }
+  .navigation__container{
+    grid-template-columns: 1fr 1fr 1fr;
+  }
 }
 /*---------------------------------------------------------Below 700px width---------------------------------------------------------------------*/
 @media only screen and (max-width:700px) {      
@@ -501,6 +505,9 @@ font-weight: 500;
     width: 80%;
     font-size: 20px;
   }
+  .navigation__container{
+    grid-template-columns: 1fr 1fr;
+  }
 }
 /*---------------------------------------------------------Below 500px width---------------------------------------------------------------------*/
 @media only screen and (max-width:500px) {      
@@ -524,5 +531,8 @@ font-weight: 500;
   .container__app{
     width: 95% ;
     padding: 2rem 3rem;
+  }
+  .navigation__container{
+    grid-template-columns: 1fr ;
   }
 }

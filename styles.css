@@ -323,7 +323,11 @@ font-weight: 500;
 }
 /*---------------------------------------------------------Footer section-------------------------------------------------------------------------*/
 .footer__section{
-  width: 100%;  
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 .footer__section1{
   display: flex;
@@ -410,6 +414,9 @@ font-weight: 500;
   margin: 1rem 0;
 }
 
+.disclaimer{
+  width: 80%;
+}
 
 
 /*---------------------------------------------------------Below 1300px width---------------------------------------------------------------------*/

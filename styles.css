@@ -416,6 +416,11 @@ font-weight: 500;
 
 .disclaimer{
   width: 80%;
+  margin: auto;
+  font-size: 15px;
+  color: gray;
+  border-top: 1px solid #bbb6b1;
+  padding: 1.5rem 0;
 }
 
 

@@ -52,7 +52,7 @@
   align-items: center;
   justify-content: center;
   gap: 32px;
-  min-height: calc(60vh - 60px);
+  min-height: calc(64vh - 60px);
 }
 
 .hero__section_logo{
@@ -100,21 +100,21 @@
   align-items: center;
   justify-content: center;
 }
+.container__section{
+  width: 72%;
+}
 .container_we_offer{
   display: flex;
   justify-content: center;
-  align-items: center;
   flex-wrap: wrap;
   gap: 1rem;
-  
 }
 .we_offer_card{
   border-radius:10px;
   overflow: hidden;
   border:solid 1px #e0e0e0;
   transition: all 0.3s ease;
-  width: 25%;
-  
+  min-width: 31%;
 }
 .we_offer_card:hover{
   transform: scale(1.05);
@@ -139,7 +139,7 @@ font-weight: 500;
 }
 /*---------------------------------------------------------Card Container------------------------------------------------------------------------*/
 .collection__section{
-  max-width: 72%;
+  width: 72%;
   margin: 3rem auto;
 }
 .collection__span{
@@ -217,7 +217,7 @@ font-weight: 500;
 .container__popularloc {
   display: flex;
   flex-direction: column;
-  margin: 3rem 0;
+  margin: 2rem 0;
   width: 72%;
   gap: 1.2rem;
 }
@@ -235,10 +235,22 @@ font-weight: 500;
   display: flex;
   flex-direction: row;
   border: 1px solid #e0e0e0;
-  padding: 0.8rem 0.5rem;
+  padding: 0.8rem 0.7rem;
   border-radius: 10px;
   justify-content: space-between;
-  gap: 1rem;
+  gap: 1rem ;
+  cursor: pointer;
+}
+.popularloc h3{
+  font-size: 17px;
+  font-weight: 500;
+}
+.popularloc p{
+  font-size: 14px;
+  font-weight: 400;
+}
+.popularloc .icons{
+  border: none;
 }
 .L9{
   align-items: center;
@@ -250,12 +262,18 @@ font-weight: 500;
   color: white;
   border: 1px solid white;
   border-radius: 15px;
-  font-size: 30px;
-  height: 29px;
-  width: 29px;
+  font-size: 20px;
+  height: 19px;
+  width: 19px;
   justify-content: center;
   align-items: center;
   rotate: 270deg;
+}
+.Lp99 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 /*---------------------------------------------------------App Container-------------------------------------------------------------------------*/
 .container__app{
@@ -612,6 +630,7 @@ font-weight: 500;
   .container__app_contain>.right h1{
     font-size: 2rem;
   }
+  
   .ed3{
     grid-template-columns: repeat(2,1fr);
   }
@@ -655,6 +674,9 @@ font-weight: 500;
   .ed3{
     grid-template-columns: repeat(2,1fr);
   }
+  .container__popularloc_contains{
+    grid-template-columns: repeat(2,1fr);
+  }
 }
 /*---------------------------------------------------------Below 500px width---------------------------------------------------------------------*/
 @media only screen and (max-width:500px) {      
@@ -683,6 +705,12 @@ font-weight: 500;
     grid-template-columns: 1fr ;
   }
   .ed3{
+    grid-template-columns: repeat(2,1fr);
+  }
+  .container__popularloc{
+    width: 80%;
+  }
+  .container__popularloc_contains{
     grid-template-columns: repeat(2,1fr);
   }
 }
@@ -715,11 +743,16 @@ font-weight: 500;
   .hero__section_logo{
     width: 170px;
   }
-  
+  .collection__section h1{
+    font-size: 30px;
+  }
   .hero__section_title{
     font-size: 90%;
   }
   .ed3{
     grid-template-columns: repeat(2,1fr);
+  }
+  .container__popularloc_contains{
+    grid-template-columns: repeat(1,1fr);
   }
 }

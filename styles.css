@@ -270,8 +270,11 @@ font-weight: 500;
   color: #9f9992;
   padding: 1rem 0;
   letter-spacing: 1px;
-  display: none;
+ 
 } 
+.ed3{
+  word-spacing: 5rem;
+}
 
 /*---------------------------------------------------------App Container-------------------------------------------------------------------------*/
 .container__app{

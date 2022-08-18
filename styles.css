@@ -719,7 +719,7 @@ font-weight: 500;
     flex-direction: column;
   }
   .container__app_contain{
-    width: 95%;
+    width: 100%;
     flex-direction: column;
   }
   .container__app_contain>.right{

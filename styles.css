@@ -743,7 +743,7 @@ font-weight: 500;
     width: 80%;
   }
   .container__popularloc_contains{
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(1,1fr);
   }
 }
 /*---------------------------------------------------------Below 300px width---------------------------------------------------------------------*/
@@ -782,7 +782,7 @@ font-weight: 500;
     font-size: 90%;
   }
   .ed3{
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(1,1fr);
   }
   .container__popularloc_contains{
     grid-template-columns: repeat(1,1fr);

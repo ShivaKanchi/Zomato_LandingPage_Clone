@@ -370,14 +370,14 @@ font-weight: 500;
   width: 100%;
 }
 .right>.inputtext input{
-  flex: 3;
+
   border-radius: 5px;
   border: 1px solid #e0e0e0;
   outline: none;
   padding: 10px 12px;
 }
 .right>.inputtext button{
-  flex: 2;
+
   font-size: 17px;
   color: white;
   background-color: #ef4f5f;
@@ -756,7 +756,7 @@ font-weight: 500;
     flex-direction: column;
   }
   .container__app_contain{
-    width: 97%;
+    width: 100%;
     flex-direction: column;
   }
   .container__app_contain>.right{

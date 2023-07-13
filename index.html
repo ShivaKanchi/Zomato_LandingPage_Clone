@@ -1,151 +1,138 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- zomato logo in the tab -->
-    <link
-      rel="icon"
-      type="image/x-icon"
-      href="https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Zomato_logo.png/220px-Zomato_logo.png"
-    />
-    <!-- font awesome icons -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
-      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-    <!-- poppins font by google fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-      rel="stylesheet"
-    />
 
-    <!-- importing styles.css -->
-    <link rel="stylesheet" href="styles.css" />
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- zomato logo in the tab -->
+  <link rel="icon" type="image/x-icon"
+    href="https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Zomato_logo.png/220px-Zomato_logo.png" />
+  <!-- font awesome icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- poppins font by google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet" />
 
-    <title>Zomato Clone</title>
-  </head>
-  <body>
+  <!-- importing styles.css -->
+  <link rel="stylesheet" href="styles.css" />
 
-    <section class="hero__section">
-      <header>
+  <title>Zomato Clone</title>
+</head>
 
-        <nav class="navbar">
+<body>
+
+  <section class="hero__section">
+    <header>
+
+      <nav class="navbar">
         <a href="#">Get the App</a>
 
         <div class="navbar__menu_container">
-        <a class="link" href="#">Investor Relations</a>
-        <a class="link" href="#">Add Restaurants</a>
-        <a class="link" href="#">Log in</a>
-        <a class="link" href="#">Sign up</a>
-        <a class="user__icon" href="#">
-          <i class="fa-solid fa-user"></i>
-        </a>
-        </div>  
+          <a class="link" href="#">Investor Relations</a>
+          <a class="link" href="#">Add Restaurants</a>
+          <a class="link" href="#">Log in</a>
+          <a class="link" href="#">Sign up</a>
+          <a class="user__icon" href="#">
+            <i class="fa-solid fa-user"></i>
+          </a>
+        </div>
       </nav>
     </header>
-     <div class="hero__section_container">
-      <img 
-      class="hero__section_logo" 
-      src="images/heroSectionLogo.png" 
-      alt="Zomato logo">
+    <div class="hero__section_container">
+      <img class="hero__section_logo" src="images/heroSectionLogo.png" alt="Zomato logo">
 
       <h1 class="hero__section_title">Discover the best food & drinks in Mumbai</h1>
-      
+
       <div class="hero__section_container_input">
         <div class="input_location">
           <i class="fa-solid fa-location-dot"></i>
-          <input 
-        type="text" name="location" 
-        placeholder="Mumbai">
+          <input type="text" name="location" placeholder="Mumbai">
         </div>
         <div class="input_search">
           <i class="fa-solid fa-magnifying-glass"></i>
-          <input 
-        type="text" name="search" 
-        placeholder="Search for a restaurant, cuisine or a dish">
+          <input type="text" name="search" placeholder="Search for a restaurant, cuisine or a dish">
         </div>
       </div>
-        
-    </section>
+
+  </section>
 
   <section class="container__main">
 
     <section class="container__section">
-    <div class="container_we_offer">
+      <div class="container_we_offer">
 
-      <div class="we_offer_card">
-        <img src="images/item1.png" />
-      <div class="we_offer_content">
-        <h2>Order Online</h2>
-        <p>Stay home and order to your doorstep</p>
-      </div>
-      </div>
-      
-      <div class="we_offer_card">
-        <img src="images/item2.png" />
-      <div class="we_offer_content">
-        <h2>Dining</h2>
-        <p>View the city's favourite dining venues</p>
-      </div>
-      </div>
-      
-      <div class="we_offer_card">
-        <img src="images/item3.png" />
-      <div class="we_offer_content">
-        <h2>Nightlife and Clubs</h2>
-        <p>Explore the city's top nightlife outlets</p>
-      </div>
-      </div>
+        <div class="we_offer_card">
+          <img src="images/item1.png" />
+          <div class="we_offer_content">
+            <h2>Order Online</h2>
+            <p>Stay home and order to your doorstep</p>
+          </div>
+        </div>
 
-    </div>
+        <div class="we_offer_card">
+          <img src="images/item2.png" />
+          <div class="we_offer_content">
+            <h2>Dining</h2>
+            <p>View the city's favourite dining venues</p>
+          </div>
+        </div>
+
+        <div class="we_offer_card">
+          <img src="images/item3.png" />
+          <div class="we_offer_content">
+            <h2>Nightlife and Clubs</h2>
+            <p>Explore the city's top nightlife outlets</p>
+          </div>
+        </div>
+
+      </div>
     </section>
 
     <section class="collection__section">
       <h1>Collections</h1>
-      <div class="collection__span" >
+      <div class="collection__span">
         <span>Explore curated lists of top restaurants, cafes, pub, and bars in Mumbai, based on trends</span>
         <span>All collection in Mumbai</span>
-      </div>  
-        <div class="collection__card_container">
+      </div>
+      <div class="collection__card_container">
 
-          <div class="collection__card c11">
-            <div class="overlay"></div>
-            <div class="collection__card_content">
-              <h4>75th Independence Special</h4>
-              <p>21 Places</p>
-            </div>
-          </div>
-          <div class="collection__card c12">
-            <div class="overlay"></div>
-            <div class="collection__card_content">
-              <h4>Newly Opened</h4>
-              <p>41 Places</p>
-            </div>
-          </div>
-          <div class="collection__card c13">
-            <div class="overlay"></div>
-            <div class="collection__card_content">
-              <h4>Best of Mumbai</h4>
-              <p>174 Places</p>
-            </div>
-          </div>
-          <div class="collection__card c14">
-            <div class="overlay"></div>
-              <div class="collection__card_content">
-              <h4>Trending This Week</h4>
-              <p>30 Places</p>
-            </div>
+        <div class="collection__card c11">
+          <div class="overlay"></div>
+          <div class="collection__card_content">
+            <h4>75th Independence Special</h4>
+            <p>21 Places</p>
           </div>
         </div>
+        <div class="collection__card c12">
+          <div class="overlay"></div>
+          <div class="collection__card_content">
+            <h4>Newly Opened</h4>
+            <p>41 Places</p>
+          </div>
+        </div>
+        <div class="collection__card c13">
+          <div class="overlay"></div>
+          <div class="collection__card_content">
+            <h4>Best of Mumbai</h4>
+            <p>174 Places</p>
+          </div>
+        </div>
+        <div class="collection__card c14">
+          <div class="overlay"></div>
+          <div class="collection__card_content">
+            <h4>Trending This Week</h4>
+            <p>30 Places</p>
+          </div>
+        </div>
+      </div>
     </section>
- 
+
     <section class="container__popularloc">
       <h1>Popular localities in and around Mumbai</h1>
       <div class="container__popularloc_contains">
@@ -218,7 +205,7 @@
             <h3>Vashi</h3>
             <p>969 places</p>
           </div>
-          <div  class="popularloc icons">
+          <div class="popularloc icons">
             <i class="fa-solid fa-circle-chevron-down"></i>
           </div>
         </div>
@@ -228,77 +215,81 @@
             <i class="fa-solid fa-circle-chevron-down"></i>
           </div>
         </div>
-        
+
       </div>
     </section>
 
     <section class="container__app">
       <div class="container__app_contain">
-      <div class="left">
-        <img src="images/mobileBanner.png" alt="AppBanner" />
-      </div>
-
-      <div class="right">
-        <h1>Get the Zomato app</h1>
-        <p>We will send you a link, open it on your phone to download the app</p>
-        
-        <div class="radiobutton">
-          <div>
-            <input type="radio" id="email" name="option" />
-            <label for="email" style="font-size: 17px;">Email</label>
-          </div>
-          <div>
-            <input type="radio" id="phone" name="option" />
-            <label for="phone" style="font-size: 17px;">Phone</label>
-          </div>
+        <div class="left">
+          <img src="images/mobileBanner.png" alt="AppBanner" />
         </div>
 
-        <div class="inputtext">
-          <input type="text" style="font-size: 17px;" placeholder="Email"></input>
-          <button>Share App Link</button>
-        </div>
+        <div class="right">
+          <h1>Get the Zomato app</h1>
+          <p>We will send you a link, open it on your phone to download the app</p>
 
-        <div class="downloadimg">
-          <h5>Download app from</h5>
-          <div>
-            <img src="images/playStore.png" alt="Playstore" />
-            <img src="images/appleStore.png" alt="IOS" />
+          <div class="radiobutton">
+            <div>
+              <input type="radio" id="email" name="option" />
+              <label for="email" style="font-size: 17px;">Email</label>
+            </div>
+            <div>
+              <input type="radio" id="phone" name="option" />
+              <label for="phone" style="font-size: 17px;">Phone</label>
+            </div>
           </div>
+
+          <div class="inputtext">
+            <input type="text" style="font-size: 17px;" placeholder="Email"></input>
+            <button>Share App Link</button>
+          </div>
+
+          <div class="downloadimg">
+            <h5>Download app from</h5>
+            <div>
+              <img src="images/playStore.png" alt="Playstore" />
+              <img src="images/appleStore.png" alt="IOS" />
+            </div>
+          </div>
+
         </div>
-      
-      </div>
       </div>
     </section>
 
-    <section class="container__explore_main">  
-    <h1>Explore options near me</h1>
-    <div class="container__explore_contains">
-      <div class="container__explore e1">
+    <section class="container__explore_main">
+      <h1>Explore options near me</h1>
+      <div class="container__explore_contains">
+        <div class="container__explore e1">
           <div class="eeblocks e11">
             <h3>Popular cuisines near me</h3>
             <i class="fa-solid fa-circle-chevron-down"></i>
           </div>
-            <p class="explore_desc ed1">
-              Bakery food near me - Beverages food near me - Biryani food near me - Burger food near me - Chinese food near me - Desserts food near me - Ice Cream food near me - Kebab food near me - Maharashtrian food near me - Momos food near me - Mughlai food near me - North Indian food near me - Pizza food near me - Rolls food near me - Sandwich food near me - Seafood food near me - Shake food near me - Sichuan food near me - South Indian food near me - Street food near me
-            </p>   
-      </div>
-
-      <div class="container__explore e2">
-        <div class="eeblocks e22">
-          <h3>Popular restaurant types near me</h3>
-          <i class="fa-solid fa-circle-chevron-down"></i>
+          <p class="explore_desc ed1">
+            Bakery food near me - Beverages food near me - Biryani food near me - Burger food near me - Chinese food
+            near me - Desserts food near me - Ice Cream food near me - Kebab food near me - Maharashtrian food near me -
+            Momos food near me - Mughlai food near me - North Indian food near me - Pizza food near me - Rolls food near
+            me - Sandwich food near me - Seafood food near me - Shake food near me - Sichuan food near me - South Indian
+            food near me - Street food near me
+          </p>
         </div>
-          <p class="explore_desc ed2">
-            Cafés near me - Casual Dining near me - Quick Bites near me</p>  
-      </div>
 
-      <div class="container__explore e3">
-          <div class="eeblocks e33">
-           <h3>Cities We Deliver To</h3>
+        <div class="container__explore e2">
+          <div class="eeblocks e22">
+            <h3>Popular restaurant types near me</h3>
             <i class="fa-solid fa-circle-chevron-down"></i>
-          </div> 
-           <div class="explore_desc ed3">
-            <a href="#">Hyderabad</a>            
+          </div>
+          <p class="explore_desc ed2">
+            Cafés near me - Casual Dining near me - Quick Bites near me</p>
+        </div>
+
+        <div class="container__explore e3">
+          <div class="eeblocks e33">
+            <h3>Cities We Deliver To</h3>
+            <i class="fa-solid fa-circle-chevron-down"></i>
+          </div>
+          <div class="explore_desc ed3">
+            <a href="#">Hyderabad</a>
             <a href="#">Mumbai</a>
             <a href="#">DelhiNCR</a>
             <a href="#">Kolkata</a>
@@ -363,11 +354,11 @@
             <a href="#">Madurai</a>
             <a href="#">Raipur</a>
             <a href="#">See more</a>
-           </div>    
-      </div>
+          </div>
+        </div>
 
       </div>
-    </div>
+      </div>
     </section>
 
     <footer class="footer__section">
@@ -376,15 +367,15 @@
         <div class="footer__section1_buttons">
           <button>
             <img src="https://flagcdn.com/w40/in.png" alt="IndianFlag" style="width: 17px;" />
-             India 
-             <div class="button_darrows"><i class="fa-solid fa-circle-chevron-down"></i></div>
+            India
+            <div class="button_darrows"><i class="fa-solid fa-circle-chevron-down"></i></div>
           </button>
           <button>
             <i class="fa fa-globe "></i>
-             English 
-             <div class="button_darrows"><i class="fa-solid fa-circle-chevron-down"></i></div>
+            English
+            <div class="button_darrows"><i class="fa-solid fa-circle-chevron-down"></i></div>
           </button>
-        </div>  
+        </div>
       </div>
       <div class="navigation__container">
         <div class="link_container">
@@ -435,10 +426,13 @@
         </div>
       </div>
       <div class="disclaimer">
-        <span >By continuing past this page, you agree to our Terms of Service, Cookie Policy, Provacy Policy and Content Policies. All trademarks are properties of their respective owners 2009-2022 © Zomato™  Ltd. All rights reserved.</span>
+        <span>By continuing past this page, you agree to our Terms of Service, Cookie Policy, Provacy Policy and Content
+          Policies. All trademarks are properties of their respective owners 2009-2022 © Zomato™ Ltd. All rights
+          reserved. (false)</span>
       </div>
     </footer>
 
   </section>
-  </body>
+</body>
+
 </html>
